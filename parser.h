@@ -5,5 +5,7 @@
 char** split_string(const char* str, const char delim, int* count);
 // 释放分割后的数组内存
 void free_split(char** arr, int count);
+// 统计文件的行数
+int count_file_lines(const char* filename);
 
 #endif
