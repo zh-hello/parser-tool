@@ -1,0 +1,9 @@
+# 排除临时文件
+tmpfile
+# 编译产物
+*.o
+parser_app
+*.a
+*.so
+# core文件
+core
